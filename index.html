@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<html lang="us">
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://kit.fontawesome.com/0c87a70838.js"></script>
+</head>
+
+<body>
+    <div class="tab-side">
+        <a href="#converter" class="active"></a>
+        <a href="#functioning"></a>
+        <a href="#donate"></a>
+    </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="" />
+            </div>
+            <div class="tab">
+                <ul>
+                    <li><a href="#functioning">Functioning</a></li>
+                    <li><a href="#donate ">Donate</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </div>
+            <div class="logo"></div>
+        </div>
+    </header>
+    <section class="sec1" id="converter">
+        <div class="container">
+            <h1>Instagram<br>survey<br>extractor
+            </h1>
+            <a href="#">
+                <button>Convert</button>
+            </a>
+            <div class="bg-responsive">
+                <img src="images/background1.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <div class="transition">
+        <img src="images/transition1.png" alt="">
+    </div>
+    <section class="sec2" id="functioning">
+        <div class="container">
+            <div class="title">
+                <h1>How does it work?</h1>
+            </div>
+
+            <div class="content content-top">
+                <div class="left" style="max-width: 700px;">
+                    <div class="headline">
+                        <div class="point"></div>
+                        <h2>Record your screen</h2>
+                    </div>
+                    <div class="separator"></div>
+                    <p>
+                        Record your smartphone screen by scrolling fastly across the poll answers.
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="images/small_phone.png" alt="">
+                </div>
+            </div>
+
+            <div class="content content-bottom">
+                <div class="left">
+                    <img src="images/chronometer.png" alt="">
+                </div>
+                <div class="right" style="max-width: 700px;">
+                    <div class="headline">
+                        <div class="point"></div>
+                        <h2>Wait a bit</h2>
+                    </div>
+                    <div class="separator"></div>
+                    <p>
+                        Wait until we extract all from the video, it lasts up to 5 minutes. It depends on the length
+                        of the video.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content content-top">
+                <div class="left" style="max-width: 700px;">
+                    <div class="headline">
+                        <div class="point"></div>
+                        <h2>Visualise then export</h2>
+                    </div>
+                    <div class="separator"></div>
+                    <p>
+                        After having extracted answers, visualise and export all the answers under several formats.
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="images/formats.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec3" id="donate">
+        <div class="container">
+            <h1>Support<br>us
+            </h1>
+            <a href="#">
+                <button>Donate
+                    <i class="fa fa-paypal" aria-hidden="true"></i>
+                </button>
+            </a>
+            <div class="bg-responsive">
+                <img src="images/happy-people.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).on("click", ".tab-side a", function () {
+            $(this).addClass("active").siblings().removeClass("active")
+        })
+    </script>
+</body>
+
+</html>
